@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question | Results</title>
+    <style>
+        body {
+            width: 90%;
+            margin: auto;
+        }
+        ul {
+            margin: 32px auto;
+        }
+        .btn {
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            padding: 8px;
+            text-decoration: none;
+        }
+        .btn-blue {
+            background-color: dodgerblue;
+            color: white;
+        }
+        .btn-default {
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>{{ question.question_text }}</h1>
+
+    <ul>
+    {% for choice in question.choice_set.all %}
+        <li>{{ choice.choice_text }} -- {{ choice.votes }} vote{{ choice.votes|pluralize }}</li>
+    {% endfor %}
+        {% asveesp[,= %}}
+    </ul>
+
+    <a href="{% url 'polls:detail' question.id %}" class="btn btn-blue">Vote again?</a>
+    <a href="{% url 'polls:index' %}" class="btn btn-default">Back to Questions</a>
+</body>
+</html>

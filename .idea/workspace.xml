@@ -4,16 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="934b7d53-4a81-42f9-a093-f1d89e3f05e8" name="Changes" comment="Test cases added.">
-      <change afterPath="$PROJECT_DIR$/mysite/polls/static/polls/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/admin/base_site.html" afterDir="false" />
+    <list default="true" id="934b7d53-4a81-42f9-a093-f1d89e3f05e8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/polls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/templates/polls/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/static/polls/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/admin/base_site.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/polls/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/polls/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/polls/results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/views.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +84,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/Thunder/projects/pythonProjects",
+    "last_opened_file_path": "E:/Thunder/projects/django-polls",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,6 +95,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Thunder\projects\pythonProjects\mysite\polls\static\polls\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Thunder\projects\pythonProjects\mysite\polls" />
     </key>
@@ -125,7 +135,8 @@
       <updated>1683723965451</updated>
       <workItem from="1683993928515" duration="701000" />
       <workItem from="1684114621612" duration="31000" />
-      <workItem from="1684114778083" duration="3047000" />
+      <workItem from="1684114778083" duration="15062000" />
+      <workItem from="1684193461394" duration="906000" />
     </task>
     <task id="LOCAL-00001" summary="Basic logic added.">
       <created>1683902143726</created>
@@ -169,7 +180,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683912274173</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Django debug toolbars added.">
+      <created>1684118419671</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684118419671</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Admin page updated.">
+      <created>1684118461922</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684118461922</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +242,8 @@
     </ignored-roots>
     <MESSAGE value="Basic logic added." />
     <MESSAGE value="Test cases added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Test cases added." />
+    <MESSAGE value="Django debug toolbars added." />
+    <MESSAGE value="Admin page updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Admin page updated." />
   </component>
 </project>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <title>Question Detail</title>
+    <style>
+        body {
+            width: 90%;
+            margin: auto;
+        }
+        fieldset {
+            margin-bottom: 32px;
+        }
+        .btn {
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            padding: 8px;
+            text-decoration: none;
+        }
+        .btn-blue {
+            background-color: dodgerblue;
+            color: white;
+        }
+        .btn-default {
+            background-color: gray;
+            color: white;
+        }
+        strong {
+            color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <form action="{% url 'polls:vote' question.id %}" method='post'>
+    {% csrf_token %}
+        {% with choices=question.choice_set.all %}
+    <fieldset>
+        <legend><h1>{{ question.question_text }}</h1></legend>
+
+        {% if  choices%}
+        {% for choice in choices %}
+        <input type='radio' name='choice' id='choice{{ forloop.counter }}' value='{{ choice.id }}'>
+        <label for='choice{{ forloop.counter }}'>{{ choice.choice_text }}</label><br>
+        {% endfor %}
+        {% else %}
+        <p>Opps! No choice is set.</p>
+        {% endif %}
+    </fieldset>
+        {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+        {% if choices %}<input type='submit' value='Vote' class="btn btn-blue">{% endif %}
+        {% endwith %}
+        <a href="{% url 'polls:index' %}" class="btn btn-default">Back to Questions</a>
+    </form>
+</body>
+</html>
