@@ -4,23 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="934b7d53-4a81-42f9-a093-f1d89e3f05e8" name="Changes" comment="">
+    <list default="true" id="934b7d53-4a81-42f9-a093-f1d89e3f05e8" name="Changes" comment="Admin page updated.">
+      <change afterPath="$PROJECT_DIR$/MANIFEST.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProjects.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/static/polls/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/admin/base_site.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/polls/detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/polls/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/polls/results.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/views.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="index" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -92,6 +82,12 @@
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TOML",
+      "Jinja2"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -99,6 +95,7 @@
       <recent name="E:\Thunder\projects\pythonProjects\mysite\polls\static\polls\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Thunder\projects\django-polls" />
       <recent name="E:\Thunder\projects\pythonProjects\mysite\polls" />
     </key>
   </component>
@@ -137,6 +134,7 @@
       <workItem from="1684114621612" duration="31000" />
       <workItem from="1684114778083" duration="15062000" />
       <workItem from="1684193461394" duration="906000" />
+      <workItem from="1684206333111" duration="2522000" />
     </task>
     <task id="LOCAL-00001" summary="Basic logic added.">
       <created>1683902143726</created>
