@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="934b7d53-4a81-42f9-a093-f1d89e3f05e8" name="Changes" comment="Admin page updated.">
-      <change afterPath="$PROJECT_DIR$/MANIFEST.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythonProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProjects.iml" afterDir="false" />
+    <list default="true" id="934b7d53-4a81-42f9-a093-f1d89e3f05e8" name="Changes" comment="Building tools for packaging added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +129,7 @@
       <workItem from="1684114621612" duration="31000" />
       <workItem from="1684114778083" duration="15062000" />
       <workItem from="1684193461394" duration="906000" />
-      <workItem from="1684206333111" duration="2522000" />
+      <workItem from="1684206333111" duration="4517000" />
     </task>
     <task id="LOCAL-00001" summary="Basic logic added.">
       <created>1683902143726</created>
@@ -192,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684118461922</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Building tools for packaging added.">
+      <created>1684213619476</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684213619476</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +244,7 @@
     <MESSAGE value="Test cases added." />
     <MESSAGE value="Django debug toolbars added." />
     <MESSAGE value="Admin page updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="Admin page updated." />
+    <MESSAGE value="Building tools for packaging added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Building tools for packaging added." />
   </component>
 </project>
